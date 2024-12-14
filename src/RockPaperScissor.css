@@ -15,7 +15,7 @@
 body {
   /* background-color: #fefefe; */
   /* background-color: var(--bg-color); */
-  background-image: url("./images/bg2.jpg");
+  /* background-image: url("./images/bg2.jpg"); */
   object-fit: cover;
   /* max-width: 1280px; */
   /* padding: 0rem 2rem 1rem 2rem; */
@@ -133,14 +133,14 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     transform: rotateY(180deg);
   }
 
   .rotate-comp-img {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     width: 100%;
   }
 
@@ -148,14 +148,16 @@ body {
     width: fit-content;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid green;
+    max-width: 160px;
+    /* border: 1px solid green; */
   }
 
   .image-user-css {
     width: fit-content;
+    max-width: 160px;
     display: flex;
     justify-content: flex-end;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   .user-chosen,
