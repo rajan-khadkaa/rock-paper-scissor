@@ -132,15 +132,15 @@ body {
     /* width: 100%; */
     display: flex;
     justify-content: flex-end;
-    width: auto;
-    /* border: 1px solid brown; */
+    width: 100%;
+    border: 1px solid brown;
     transform: rotateY(180deg);
   }
 
   .rotate-comp-img {
     display: flex;
     justify-content: flex-end;
-    /* border: 1px solid brown; */
+    border: 1px solid brown;
     width: 100%;
   }
 
@@ -148,6 +148,14 @@ body {
     width: fit-content;
     display: flex;
     justify-content: flex-end;
+    border: 1px solid green;
+  }
+
+  .image-user-css {
+    width: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid green;
   }
 
   .user-chosen,
