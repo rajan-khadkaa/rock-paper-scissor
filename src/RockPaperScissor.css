@@ -124,8 +124,10 @@ body {
 
   .image-user-css,
   .image-comp-css {
-    height: 80px;
-    border: 1px solid green;
+    height: 60px;
+    transform: scale(1.1);
+    width: fit-content;
+    /* border: 1px solid green; */
   }
 
   .rotate-img {
