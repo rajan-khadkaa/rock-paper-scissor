@@ -114,7 +114,7 @@ body {
     /* flex: 1; */
     /* height: 160px; */
     height: fit-content;
-    min-height: 450px;
+    min-height: 390px;
     align-items: center;
     /* justify-content: flex-end; */
     justify-content: center;
@@ -168,8 +168,8 @@ body {
     display: flex;
 
     /* align-items: flex-end; */
-    /* border: 1px solid red; */
-    height: 100%;
+    /* border: 1px solid blue; */
+    /* height: 20px; */
     width: 100%;
   }
 
@@ -260,6 +260,46 @@ body {
   .result-card {
     margin-bottom: 40px;
   }
+
+  .vs-div {
+    visibility: hidden;
+    height: 0px;
+    border: 1px solid green;
+  }
+
+  .vs-text {
+    visibility: hidden;
+    height: 0px;
+  }
+
+  .img-info-text {
+    font-size: 14px;
+  }
+
+  .info-text,
+  .default-message-box {
+    font-size: 14px !important;
+  }
+
+  .you-count,
+  .comp-count {
+    font-size: 18px !important;
+    font-weight: 800 !important;
+  }
+}
+
+.vs-text {
+  /* visibility: visible; */
+
+  /* font-family: "Lucida Sans", Verdana, sans-serif; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px !important;
+  font-weight: 800;
+  height: fit-content;
+  width: fit-content;
+  color: #474747;
+  /* color: red; */
+  /* border: 1px solid black; */
 }
 
 .btn-icon,

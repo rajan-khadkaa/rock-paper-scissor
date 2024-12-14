@@ -266,26 +266,19 @@ function RockPaperScissor() {
                       </div>
                       <p>
                         {yourImg === defImg ? (
-                          "Wait"
+                          "Chimp"
                         ) : (
-                          <span>Chimp: {Capitalize(uc)}</span>
+                          <span className="img-info-text">
+                            Chimp: {Capitalize(uc)}
+                          </span>
                         )}
                       </p>{" "}
                     </div>
                   ) : (
                     <></>
                   )}
-                  <div>
-                    <p
-                      style={{
-                        fontSize: "28px",
-                        fontFamily: "Verdana, sans-serif",
-                        fontWeight: "800",
-                        color: "#474747",
-                      }}
-                    >
-                      Vs
-                    </p>
+                  <div className="vs-div">
+                    <p className="vs-text">Vs</p>
                   </div>
                   {compImg ? (
                     <div className="comp-chosen">
@@ -302,7 +295,7 @@ function RockPaperScissor() {
                       {/* <p>{!winner ? "Wait" : Capitalize(cc)}</p>{" "} */}
                       <p>
                         {compImg === defImg ? (
-                          "Wait"
+                          "You"
                         ) : (
                           <span>You: {Capitalize(cc)}</span>
                         )}
