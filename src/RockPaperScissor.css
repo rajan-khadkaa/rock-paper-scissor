@@ -125,7 +125,7 @@ body {
   .image-user-css,
   .image-comp-css {
     height: 60px;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     width: fit-content;
     /* border: 1px solid green; */
   }
@@ -261,7 +261,9 @@ body {
   }
 
   .result-card {
-    margin-bottom: 40px;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+    /* border: 1px solid green !important; */
   }
 
   .vs-div {
@@ -276,7 +278,7 @@ body {
   }
 
   .img-info-text {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800 !important;
   }
 
