@@ -114,7 +114,7 @@ body {
     /* flex: 1; */
     /* height: 160px; */
     height: fit-content;
-    min-height: 390px;
+    min-height: 320px;
     align-items: center;
     /* justify-content: flex-end; */
     justify-content: center;
@@ -124,7 +124,8 @@ body {
 
   .image-user-css,
   .image-comp-css {
-    height: 60px;
+    height: 80px;
+    border: 1px solid green;
   }
 
   .rotate-img {
@@ -274,6 +275,7 @@ body {
 
   .img-info-text {
     font-size: 14px;
+    font-weight: 800 !important;
   }
 
   .info-text,
