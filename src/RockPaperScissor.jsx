@@ -266,9 +266,9 @@ function RockPaperScissor() {
                       </div>
                       <p className="img-info-text">
                         {yourImg === defImg ? (
-                          "Chimp"
+                          "You"
                         ) : (
-                          <span>Chimp: {Capitalize(uc)}</span>
+                          <span>You: {Capitalize(uc)}</span>
                         )}
                       </p>{" "}
                     </div>
@@ -293,9 +293,9 @@ function RockPaperScissor() {
                       {/* <p>{!winner ? "Wait" : Capitalize(cc)}</p>{" "} */}
                       <p className="img-info-text">
                         {compImg === defImg ? (
-                          "You"
+                          "Chimp"
                         ) : (
-                          <span>You: {Capitalize(cc)}</span>
+                          <span>Chimp: {Capitalize(cc)}</span>
                         )}
                       </p>{" "}
                     </div>

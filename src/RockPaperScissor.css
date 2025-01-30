@@ -491,3 +491,14 @@ body {
   text-align: center;
   font-size: 16px;
 }
+
+.btn-icon:hover {
+  cursor: pointer;
+  background-color: #016a87;
+}
+
+.btn-play-again:hover {
+  cursor: pointer;
+  background-color: #016a87;
+  color: white;
+}
